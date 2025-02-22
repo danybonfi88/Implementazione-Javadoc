@@ -1,7 +1,18 @@
+/**
+ * Main: consente di creare Veicoli e Auto e ottenerne le caratteristiche
+ * @author Daniele Bonfante
+ */
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        /**
+         * dichiarazione e inizializzazione scanner
+         */
         Scanner sc = new Scanner(System.in);
+
+        /**
+         * dichiarazione e inizializzazione altre variabili
+         */
         boolean stato = true; int sceltaMenu;
         String marca; String modello; String anno; int nPorte;
         Veicolo [] listaV = new Veicolo [10]; Auto [] listaA = new Auto [10];
